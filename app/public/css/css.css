@@ -1,0 +1,38 @@
+/* 
+    Created on : 27/08/2014, 23:38:52
+    Author     : AndreMarcelino
+*/
+*{ margin:0;
+   padding:0;
+}
+/*========================
+	General Styles
+===========================*/
+body{ /*font-family:  "Slate W01",sans-serif; font-size: 1.2em;*/
+	/* Workaround for some mobile browsers */
+	font:1.9em 'Slate W01', 'Segoe UI',Arial, sans-serif;
+	min-height:100%;
+}
+
+
+
+/*========================
+	Ajustes
+===========================*/
+.margin-topo10{margin-top: 10px;}
+.margin-topo20{margin-top: 20px;}
+.margin-topo30{margin-top: 30px;}
+.margin-topo40{margin-top: 40px;}
+.margin-topo50{margin-top: 50px;}
+
+.margin-bottom80{margin-bottom: 80px}
+.aclear{text-decoration: none;color: #333333}
+.aclear:hover{text-decoration: none;color: #333333}
+
+/*.navbar-inverse{background-image: url("../img/bg-top-dpny.png");border-color: #00CFCA;}*/
+.navbar-inverse{background-color: #06406C;border-color: #111111;}
+.navbar-inverse .navbar-nav>li>a {color: #fff;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+color: #fff;
+background-color: #008001;
+}
