@@ -5,7 +5,7 @@ class Home extends ControllerMain {
      //  $this->setModel('ManterUsuario_model');
     }
     public  function index() {       
-       //imagens aleatorias
+       //imagens aleatorias Home
         $arrImg =  array(
             'bg1.jpg', 'bg2.jpg', 'bg3.jpg', 'bg4.jpg', 'bg5.jpg', 'bg6.jpg', 'bg7.jpg', 'bg8.jpg', 'bg9.jpg' ,'bg10.jpg' ,'bg11.jpg','bg13.jpg','bg14.jpg','bg15.jpg','bg16.jpg','bg17.jpg', 'andre marcelino.jpg'
             );
@@ -25,14 +25,6 @@ class Home extends ControllerMain {
         $view->draw('tpl/tplHome');//nome da view padrão
     }
     
-    public function cadUsuario() {
-        $usuario = new ManterUsuario_model();
-        $dados = $_POST;
-        $adicionaUsuario = $usuario->addUser($dados);
-        if( $adicionaUsuario ):
-            echo '<h1>:)</h1>';
-        endif;
-    }
 
 }
 
