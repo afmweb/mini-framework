@@ -1,6 +1,0 @@
-<?php if(!class_exists('raintpl')){exit;}?><section>    
-    <header>        
-        <h1>Desenvolvimento de Websites, Intranet e Sistemas Para Internet</h1>        
-        <h2><i>Tecnologias</i> Open Souce:</h2>        <p>PHP, MYSQL, JQUERY, HTML5, CSS3,</p>        <span><a href="Sobre#tecnologias">veja mais...</a></span>    
-    </header></section><nav  class="menu-dispositivos">    <div>        <span>&equiv;</span><h1><a href="<?php  echo SITE_URL;?>">AndréWeb</a></h1>    </div>    <div class="clear"></div>    <div>        <ul>            <li><a href="Sobre">Sobre</a></li>            <li><a href="Contato">Contato</a></li>        </ul>    </div></nav><footer class="xs-hidden bg-rodape-home">    <h3 class="margin-topo12">        <i>Página Pessoal de:</i> <a href="<?php  echo SITE_URL;?>" title="Desenvolvedor Web">André Fauze Marcelino</a>         <i><a href="Sobre" class="espEsq20px">Sobre</a> |             <a href="Contato">Contato</a>        </i>    </h3>    <span class="tzine">Desde 2010 - Todos os direitos reservados</span>
-</footer>
