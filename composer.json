@@ -1,0 +1,13 @@
+{
+    "name": "afm",
+  
+    
+    "autoload" : {
+        "psr-4" : {
+            "Controllers\\" : "src/App/Controllers",
+            "Models\\" : "src/App/Models",
+            
+            "Sys\\" : "src/Sys/"
+        }
+    }
+}
