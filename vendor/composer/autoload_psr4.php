@@ -7,6 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Sys\\' => array($baseDir . '/src/Sys'),
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
     'Models\\' => array($baseDir . '/src/App/Models'),
+    'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
+    'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Controllers\\' => array($baseDir . '/src/App/Controllers'),
 );
